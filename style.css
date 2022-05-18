@@ -1,5 +1,6 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
+    background-color: blueviolet;
 }
 
 
@@ -10,9 +11,9 @@ body {
 }
 
 .item1 {
-grid-column-start: 1;
-grid-column-end: 3;
-    
+    grid-column-start: 1;
+    grid-column-end: 3;
+
 }
 
 #container {
@@ -22,7 +23,7 @@ grid-column-end: 3;
     padding: 10px;
 }
 
-#container > div {
+#container>div {
     background-color: blue;
     width: 30;
     min-height: 20vh;
@@ -30,7 +31,7 @@ grid-column-end: 3;
     color: white;
     font-size: 3rem;
     text-align: center;
-    
+
 }
 
 .img {
